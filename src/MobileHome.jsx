@@ -1,7 +1,10 @@
 
-import data from "./data.json"
-import './mobileHome.css'
-import { Splide, SplideSlide } from "@splidejs/react-splide"
+import data from "./data.json";
+import './mobileHome.css';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { Routes, Router } from "react-router-dom";
+
+
 
 const Mobilehome = () => {
     return (
